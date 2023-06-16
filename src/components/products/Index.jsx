@@ -1,18 +1,16 @@
 import React from "react";
 import IndustryInsights from "../learnmore";
 import heroVideo from "../../assets/images/car-model.mp4";
-import homeVideo from "../../assets/images/electric.webm";
+// import homeVideo from "../../assets/images/electric.webm";
 import About from "../about";
 import { Link } from "react-router-dom";
 import Subscribe from "../newsletter";
 
 const Index = () => {
-  
   return (
     <>
       <div className="h-[100vh] max-w-screen relative ">
         <div className="relative flex justify-center items-center h-screen w-full ">
-          
           <video
             src={heroVideo}
             autoPlay
@@ -38,16 +36,16 @@ const Index = () => {
       </div>
 
       <div className="bg-black py-20 max-w-screen">
-          <div className="bg-[#000000] h-full w-full flex justify-center">
-            <video
-              src={homeVideo}
-              autoPlay
-              loop
-              muted
-              controls
-              className="h-full w-[1200px] object-cover"
-            />
-          </div>
+        <div className="bg-[#000000] h-full w-full flex justify-center">
+          {/* <video
+            src={homeVideo}
+            autoPlay
+            loop
+            muted
+            controls
+            className="h-full w-[1200px] object-cover"
+          /> */}
+        </div>
       </div>
 
       <IndustryInsights />
