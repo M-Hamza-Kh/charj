@@ -64,7 +64,7 @@ const Navbar = () => {
           <Link to="/">
             <LogoSvg
               width="6rem"
-              logoColor={
+              logocolor={
                 !homeRoute && !darkBgRoute && !scrolled ? "#000" : "#fff"
               }
             />
@@ -84,8 +84,7 @@ const Navbar = () => {
 
         <div className="flex gap-5 text-[1rem] font-semibold">
           <div className="hidden lg:flex gap-5">
-
-          <Link
+            <Link
               to="/services"
               className={`${
                 (homeRoute || darkBgRoute) && !scrolled
@@ -105,7 +104,7 @@ const Navbar = () => {
             >
               The Padestal Energy
             </Link>
-            
+
             <Link
               to="/charj-network"
               className={`${
@@ -116,7 +115,7 @@ const Navbar = () => {
             >
               The Charge Network
             </Link>
-          <Link
+            <Link
               to="/join-us"
               className={`${
                 (homeRoute || darkBgRoute) && !scrolled

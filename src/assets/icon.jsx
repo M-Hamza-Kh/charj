@@ -11,7 +11,7 @@ const LogoSvg = (props) => (
       enableBackground: "new 0 0 934.4 160.8",
     }}
     xmlSpace="preserve"
-    fill={props.logoColor}
+    fill={props.logocolor}
     {...props}
   >
     <style type="text/css">{`\n\t.st0{fill:;}\n`}</style>
