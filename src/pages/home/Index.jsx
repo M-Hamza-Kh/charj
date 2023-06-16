@@ -3,9 +3,7 @@ import Products from "../../components/products/Index";
 import dummyVideo from "../../assets/images/atoms.mp4";
 
 const Index = () => {
-  return (
-      <Products />
-  );
+  return <Products />;
 };
 
 export default Index;

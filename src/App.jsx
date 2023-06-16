@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar/Index";
-import Home from './pages/home';
+import Home from "./pages/home";
 import Faqs from "./pages/faqs";
 import Services from "./pages/services";
 import Energypedestal from "./pages/energypedestal";
@@ -11,9 +11,8 @@ import JoinUs from "./pages/joinus";
 import ContactUs from "./pages/contact";
 
 function App() {
-
   return (
-      <>
+    <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -24,9 +23,9 @@ function App() {
         <Route path="/charj-network" element={<CharjNetwork />} />
         <Route path="/padestal-energy" element={<Energypedestal />} />
       </Routes>
-      <Footer/>
-      </>
-  )
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
